@@ -584,6 +584,10 @@
     (uuid ff797fd1-a590-4be3-ab40-a6fc433ebaa2)
   )
 
+  (hierarchical_label "REN" (shape input) (at 158.75 116.84 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 039a2def-2788-42a6-be65-c1c3034f8877)
+  )
   (hierarchical_label "ADC_IN7" (shape input) (at 149.86 87.63 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 12228c8a-3b69-4869-ac71-5036b82e9b94)
@@ -655,6 +659,10 @@
   (hierarchical_label "ADC_IN8" (shape input) (at 149.86 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fd41a513-c4e5-48db-af01-be6f56f7fd79)
+  )
+  (hierarchical_label "DEN" (shape input) (at 160.02 111.76 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid fe44e507-d945-450e-bd1d-21c4bdf36525)
   )
 
   (symbol (lib_id "MCU_ST_STM32G0:STM32G071KBTx") (at 123.19 90.17 0) (unit 1)
