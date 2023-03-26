@@ -334,6 +334,10 @@
     [
       "a835cc81-2a53-48d8-a857-149ee378bb4e",
       "Level Shifter"
+    ],
+    [
+      "b1eadd92-2e24-4711-a36c-11252eca3cff",
+      "RS485iso"
     ]
   ],
   "text_variables": {}
