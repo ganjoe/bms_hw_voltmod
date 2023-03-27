@@ -668,7 +668,7 @@
   (symbol (lib_id "MCU_ST_STM32G0:STM32G071KBTx") (at 123.19 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a8035f8-2732-4c3a-970a-6fb53d63de3a)
-    (property "Reference" "U103" (at 125.1459 64.3001 0)
+    (property "Reference" "U?" (at 125.1459 64.3001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G071KBTx" (at 125.1459 66.2211 0)
@@ -715,20 +715,20 @@
     (instances
       (project "stm32"
         (path "/a2a88a52-8cdb-4122-8d15-41075823ed07"
-          (reference "U103") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "main"
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb"
-          (reference "U103") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/608fadb2-7436-4bb6-b36c-1e70f65483d8"
-          (reference "U103") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "hw_voltmod"
         (path "/aba5ff33-6d0a-4fec-b36e-20121d176c3c/598d7000-f460-468d-8276-28163f3735c3"
-          (reference "U8") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -737,7 +737,7 @@
   (symbol (lib_id "Device:R") (at 96.52 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76ebb5b6-8b12-4b3b-aba9-7679983963aa)
-    (property "Reference" "R701" (at 98.298 81.9063 0)
+    (property "Reference" "R?" (at 98.298 81.9063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (at 98.298 83.8273 0)
@@ -754,23 +754,23 @@
     (instances
       (project "stm32"
         (path "/a2a88a52-8cdb-4122-8d15-41075823ed07"
-          (reference "R701") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "main"
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb"
-          (reference "R701") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/a66b9f2e-6ae3-4ea2-ba88-5754b149371d"
-          (reference "R109") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/608fadb2-7436-4bb6-b36c-1e70f65483d8"
-          (reference "R137") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "hw_voltmod"
         (path "/aba5ff33-6d0a-4fec-b36e-20121d176c3c/598d7000-f460-468d-8276-28163f3735c3"
-          (reference "R54") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -779,7 +779,7 @@
   (symbol (lib_id "Device:C") (at 107.95 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e727b375-4371-423d-bfa1-1b0bd8c436ab)
-    (property "Reference" "C801" (at 110.871 60.3163 0)
+    (property "Reference" "C?" (at 110.871 60.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n" (at 110.871 62.2373 0)
@@ -796,23 +796,23 @@
     (instances
       (project "stm32"
         (path "/a2a88a52-8cdb-4122-8d15-41075823ed07"
-          (reference "C801") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "main"
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb"
-          (reference "C801") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/a66b9f2e-6ae3-4ea2-ba88-5754b149371d"
-          (reference "C103") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/608fadb2-7436-4bb6-b36c-1e70f65483d8"
-          (reference "C121") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "hw_voltmod"
         (path "/aba5ff33-6d0a-4fec-b36e-20121d176c3c/598d7000-f460-468d-8276-28163f3735c3"
-          (reference "C21") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -821,7 +821,7 @@
   (symbol (lib_id "Device:C") (at 96.52 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fab88ea0-ff10-4b1c-af5c-393270f08ef7)
-    (property "Reference" "C801" (at 99.441 60.3163 0)
+    (property "Reference" "C?" (at 99.441 60.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 99.441 62.2373 0)
@@ -838,23 +838,23 @@
     (instances
       (project "stm32"
         (path "/a2a88a52-8cdb-4122-8d15-41075823ed07"
-          (reference "C801") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "main"
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb"
-          (reference "C801") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/a66b9f2e-6ae3-4ea2-ba88-5754b149371d"
-          (reference "C103") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/a7d525ca-c4cb-4a7a-8337-8afd7514bbeb/608fadb2-7436-4bb6-b36c-1e70f65483d8"
-          (reference "C120") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "hw_voltmod"
         (path "/aba5ff33-6d0a-4fec-b36e-20121d176c3c/598d7000-f460-468d-8276-28163f3735c3"
-          (reference "C20") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
